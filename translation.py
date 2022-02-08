@@ -2,17 +2,13 @@ class Translation(object):
 
     START_TEXT = """Hello,
 
-This is a Telegram URL Upload Bot!
+This is a Telegram Zoom Recoding Uploader Bot!
 
-<b> send me any Direct download URL link, I can upload various kinds of direct links to telegram as File/Video </b>
+<b> Send me any Zoom Recoding URL link, I can upload Zoom Recoding links to telegram as File/Video </b>
 
 Also I can set custom captions too
 
-⭕️ Press /help for detailed instructions...
-    Created with ❤️ by @dasun_pamod 
-
-
-"""
+⭕️ Press /help for detailed instructions..."""
 
     HELP_USER = """Hai I'am a URL Uploader bot..
     
@@ -23,8 +19,6 @@ Also I can set custom captions too
    DFile  - Give File with Screenshots
    Video  - Give File as video without Screenshots
    DFile  - Give File without Screenshots
-
-Created with ❤️ by @dasun_pamod 
 """
 
     FORMAT_SELECTION = """Select the desired format: <a href='{}'>file size might be approximate</a>
@@ -36,7 +30,7 @@ You can use /deletethumbnail to delete the auto-generated thumbnail."""
 URL | newfilename | username | password"""
 
 
-    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  \n\n<a href='http://github.com/dasunpamod/'>Click here, Fork and deploy!!</a>"
+    UPGRADE_TEXT = "<b>Already Premium User✋</a>"
     
     DOWNLOAD_START = "Trying to download your file...⌛️"
     
@@ -50,9 +44,9 @@ URL | newfilename | username | password"""
 
     DEL_ETED_CUSTOM_THUMB_NAIL = "Custom thumbnail cleared succesfully.🌝"
 
-    CUSTOM_CAPTION_UL_FILE = " "
+    CUSTOM_CAPTION_UL_FILE = ""
 
-    SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
+    SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file."
 
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
     
